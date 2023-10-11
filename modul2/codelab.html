@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codelab1</title>
+</head>
+<body>
+    <script src="codelab.js"></script>
+    <h1>
+        PENJUMLAHAN BILANGAN
+    </h1>
+    <table>
+        <tr>
+            <td>
+                Bilangan pertama:
+            </td>
+            <td>
+                <input type="text" placeholder="Masukkan angka" id="firstNum">
+            </td>
+            <td>
+                Bilangan kedua:
+            </td>
+            <td>
+                <input type="text" placeholder="Masukkan angka" id="secNum">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="submit" value="Jumlahkan" id="addButton" onclick="alert('Hasil penjumlahan = '+getResult())">
+                <input type="submit" value="Ulang" id="resetButton" onclick="reset()">
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
