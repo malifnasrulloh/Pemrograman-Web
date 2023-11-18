@@ -10,7 +10,6 @@ class aa{
 }
 $obj = new aa;
 echo json_encode($obj->a)."\n";
-echo json_decode(json_encode($obj->a));
 // echo json_decode(json_encode($a->a))['code'];
 // echo json_decode(json_encode($a->a));
 
